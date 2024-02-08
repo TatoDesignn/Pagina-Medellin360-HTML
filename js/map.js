@@ -1,4 +1,5 @@
 const map = L.map('map'); 
+var btnPunto = document.getElementById("btn-punto");
 
 map.setView([6.2427, -75.5745], 13); 
 
@@ -28,8 +29,6 @@ function success(pos) {
         zoomed = map.fitBounds(circle.getBounds()); 
     }
 
-    map.setView([lat, lng]);
-
 }
 
 function error(err) {
@@ -45,18 +44,18 @@ function error(err) {
 navigator.geolocation.watchPosition(success, error);
 
 const puntos = [ {lat: 6.24626, lng: -75.59790, descripcion: "La PAMPA.", link: "../html/lapampa.html"},  
-{lat: 6.24501, lng: -75.59501, descripcion: "Crepes & Waffles.", link: ""},  
+{lat: 6.24501, lng: -75.59501, descripcion: "Crepes & Waffles.",},  
 {lat: 6.24079, lng: -75.59177, descripcion: "Hierba buena."},];
 
-const puntos2 = [ {lat: 6.24630, lng: -75.59516, descripcion: "BBC cervecería."},
+const puntos2 = [ {lat: 6.24630, lng: -75.59516, descripcion: "BBC cervecería.", link: "../html/bbc.html"},
 {lat: 6.24551, lng: -75.58919, descripcion: "La Kasica."},
 {lat: 6.23919, lng: -75.59345, descripcion: "Encantigo Bar."},];
 
-const puntos3 = [ {lat: 6.23919, lng: -75.59345, descripcion: "Iglesia upb."},
+const puntos3 = [ {lat: 6.23919, lng: -75.59345, descripcion: "Iglesia upb.", link: "../html/church.html"},
 {lat: 6.24104, lng: -75.58433, descripcion: "El verbo divino."},
 {lat: 6.23628, lng: -75.58035, descripcion: "Pueblito paisa."},];
 
-const puntos4 = [ {lat: 6.24586, lng: -75.59342, descripcion: "Parque de laureles."},
+const puntos4 = [ {lat: 6.24586, lng: -75.59342, descripcion: "Parque de laureles.", link: "../html/parkLaureles.html"},
 {lat: 6.23577, lng: -75.60404, descripcion: "La villa."},
 {lat: 6.23628, lng: -75.58035, descripcion: "Pueblito paisa."},];
 
@@ -73,8 +72,8 @@ let iconRestaurant = {
 }
 
 let iconNocturna = {
-  iconUrl:"../image/iconNoc.png",
-  iconSize:[50,62]
+  iconUrl:"../image/iconNoc2.png",
+  iconSize:[70,62]
 }
 
 let iconArquitectura = {
@@ -196,6 +195,7 @@ function addMarkers3() {
   for (let i = 0; i < puntos3.length; i++) {
     const marker = L.marker([puntos3[i].lat, puntos3[i].lng], iconOptions3);
     marker.addTo(map);
+    marker.bindPopup(`<b>${puntos3[i].descripcion}</b><br><a href=${puntos3[i].link}>Watch content</a>`);
     markers3.push(marker);
   }
 

@@ -179,13 +179,18 @@ main img{
     border: none;
 }
 
+.contBarra{
+    width: 300px;
+    position: relative;
+}
+
 .trans{
     transition: all 0.5s ease-out;
-    position: relative;
+    position: absolute;
     width: 138px;
-    height: 19px;
-    bottom: 627px;
-    left: -80px;
+    height: 18px;
+    bottom: 2px;
+    left: 0px;
     z-index: 2;
     transform-origin: left;
 }

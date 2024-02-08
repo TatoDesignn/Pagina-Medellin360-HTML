@@ -8,13 +8,6 @@ html{
     font-size: 62.5%;
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .ventana{
     position: fixed;
     width: 330px;
@@ -56,6 +49,13 @@ header{
     font-size: 14px;
     color: white;
     font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .banner{

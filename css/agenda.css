@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: #d6d6d6;
+}
+
+.efect{
+    position: absolute;
+    width: 260px;
+    height: 500px;
+    left: 0px;
+    top: -20px;
+    z-index: -3;
+}
+
+.efect2{
+    position:absolute;
+    width: 280px;
+    height: 460px;
+    right: 0;
+    bottom: -20px;
+    z-index: -1;
+}
+
+header{
+    width: 100%;
+    height: 130px;
+    position: fixed;
+    top: 0;
+    background: #012A3A;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    z-index: 2;
+}
+
+header p{
+    width: 300px;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.arriba{
+    width: 100%;
+    height: 180px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.routes{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icon{
+    width: 35px;
+    margin: 0 15px;
+}
+
+.derecha{
+    width: 8px;
+    height: 18px;
+    margin-top: 8px;
+}
+
+.routes h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    width: 85px;
+    height: 30px;
+    background: linear-gradient(to right, #01E276,#1DD7FE);
+    position: relative;
+    bottom: 15px;
+    right: 80px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.myRoutes{  
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.myRoutes h2{  
+    font-family: 'Roboto Slab', serif;
+    width: 200px;
+    height: 20px;
+}
+
+.myRoutes span{
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 66px;
+}
+
+.events{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.events h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    width: 85px;
+    height: 30px;
+    background: linear-gradient(to right, #1DFFC9,#3E73FB);
+    position: relative;
+    bottom: 15px;
+    right: 80px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.myEvents{  
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.myEvents h2{  
+    font-family: 'Roboto Slab', serif;
+    width: 200px;
+    height: 20px;
+}
+
+.myEvents span{
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 66px;
+}
+
+.center{
+    position: relative;
+    width: 85px;
+    height: 120px;
+    bottom: 10px;
+    left: 0px;
+    background-color: #012A3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    z-index: 4;
+}
+
+.center img{
+    width: 60px;
+    height: 60px;
+}
+
+.Footer-options{
+    background-color: white;
+    height: 75px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    z-index: 3;
+    border: 1px solid #012A3A;
+}
+
+.home{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 45px;
+}
+
+.Diary{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 45px;
+}
+
+.comunidad{
+    width: 40px;
+    position: relative;
+    top: 35px;
+}
+
+.perfil{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 43px;
+}
+
+.Footer-options ul{
+    display: flex;
+    list-style: none;
+}
+
+.Footer-options li{
+    margin: 0 15px;
+}
+
+.footer2{
+    width: 100%;
+    height: 100px;
+}

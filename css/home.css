@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    font-size: 62.5%;
+    background-color: #d6d6d6;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 130px;
+    top: 0;
+    background: #012A3A;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 3;
+    font-family: 'Roboto Slab', serif;
+}
+
+header p{
+    width: 300px;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+header input{
+    background: linear-gradient(to right, #7069B4, #DD5AB0);
+    border: none;
+    width: 300px;
+    height: 30px;
+    opacity: 90%;
+    border-radius: 15px;
+    margin-top: 15px;
+    color: white;
+    padding-left: 20px;
+}
+
+input::placeholder{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.arriba{
+    width: 100%;
+    height: 150px;
+}
+
+.efect{
+    position: absolute;
+    width: 260px;
+    height: 500px;
+    left: 0px;
+    top: -20px;
+    z-index: -3;
+}
+
+.efect2{
+    position:absolute;
+    width: 280px;
+    height: 460px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.personas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+.personas img{
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.post1{
+    width: 320px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    border-radius: 20px;
+}
+
+.Logo{
+    width: 50px;
+    height: 50px;
+    margin: 10px 15px;
+}
+
+.nombre{
+    font-size: 16px;
+    width: 60%;
+    height: 10px;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    margin-top: 10px;
+}
+
+.desc{
+    font-family: 'Roboto Slab', serif;
+    background-color: #eeeeee;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    right: 45px;
+    top: 35px;
+}
+
+.publicacion{
+    width: 100%;
+}
+
+.center{
+    position: relative;
+    width: 85px;
+    height: 120px;
+    bottom: 10px;
+    left: 0px;
+    background-color: #012A3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    z-index: 4;
+}
+
+.center img{
+    width: 60px;
+    height: 60px;
+}
+
+.Footer-options{
+    background-color: white;
+    height: 75px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    z-index: 3;
+    border: 1px solid #012A3A;
+}
+
+.home{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 45px;
+}
+
+.Diary{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 45px;
+}
+
+.comunidad{
+    width: 40px;
+    position: relative;
+    top: 35px;
+}
+
+.perfil{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 43px;
+}
+
+.Footer-options ul{
+    display: flex;
+    list-style: none;
+}
+
+.Footer-options li{
+    margin: 0 15px;
+}
