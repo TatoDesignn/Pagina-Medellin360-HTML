@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MEDELLIN 360</title>
+        <link rel="stylesheet" href="../css/terminos.css">
+        <link rel="icon" href="../image/logo2.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="barra" src="../image/Barra3.png" alt="Barra Progreso">
+            <a href="./informacion.html"><img class="atras" src="../image/Atras.png" alt="Atras"></a>
+            <img class="efect" src="../image/Fondo.png" alt="Dec">
+            <img class="efect2" src="../image/fondo3.png" alt="Dec">
+            <div class="ventana" id="ventana">
+                <button type="button" id="salir"><b>X</b></button>
+                <h1 class="Titulo2" id="Titulo2"></h1>
+                <span id="Texto2"></span>
+            </div>
+        </header>
+        <main>
+            <h1>Terms and<br>Conditions</h1>
+            <h3>Privacy Policy</h3>
+            <img class="icon1" src="../image/terminosIcono1.png" alt="icon">
+            <span class="separador">Do you accept the privacy policy?</span>
+            <input type="checkbox" id="check1" class="check1" required>
+            <h3>Data Treatment</h3>
+            <img class="icon2" src="../image/terminosIcono2.png" alt="icon">
+            <span>Do you accept the data treatment?</span>
+            <input type="checkbox" id="check2" class="check2" required>
+            <button type="submit" class="continuar" onclick="verificacion()">Continue</button>
+            <button class="privacidad" type="button" id="boton1"></button>
+            <button class="data" type="button" id="boton2"></button>
+            <img class="trans" id="trans" src="../image/trans.png" alt="Transition">
+        </main>
+        <script src="../js/terminos.js"></script>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    background-image: url("../image/background.png");
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    margin-top: 60px;
+    width: 300px;
+}
+
+.efect{
+    position: absolute;
+    width: 200px;
+    height: 600px;
+    left: 0px;
+    top: -60px;
+    z-index: -1;
+}
+
+.efect2{
+    position:absolute;
+    width: 180px;
+    height: 960px;
+    right: 0;
+    top: 235px;
+    z-index: -1;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.atras{
+    width: 40px;
+    position: absolute;
+    top: -40px;
+    left: 15px;
+}
+
+span{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+form h1{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    margin: 20px 0px;
+}
+
+form input{
+    width: 300px;
+    height: 30px;
+    background: none;
+    border-bottom: 3px  solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input::placeholder{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form button{
+    width: 150px;
+    height: 30px;
+    background: linear-gradient(to right, #ED4749, #C70A98);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    margin: 40px 0;
+}
