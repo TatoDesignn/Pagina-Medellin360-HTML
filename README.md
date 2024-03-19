@@ -14,7 +14,7 @@ de crear una aplicación de turismo, donde cada usuario pueda explorar la ciudad
   <li>La mayoría de personas les gusta compartir sus experiencias en grupo</li>
   <li>La industria turística nacional aportó más de 40 billones al PIB en 2022</li>
 </ul>
-<img style="width: 200px; height: auto;" src="https://media.discordapp.net/attachments/1001222483120230501/1205634366949031936/Logo.png?ex=65d91580&is=65c6a080&hm=35dc1a106bd65ec8d9ef81ac207894f455f661e153d03e3fb532d86fe38a6b1c&=&format=webp&quality=lossless&width=433&height=676">
+<img style="width: 200px; height: auto;" src="https://github.com/TatoDesign/Repositorios-Imagenes/blob/main/Medellin360/Logo.png">
 <h2>Mas información ⭐</h2>
 <a href="https://youtube.com/shorts/XeB6LlsKnWo?feature=share">Link Video Medellin 360</a>
 <a href="https://www.canva.com/design/DAFicJUOhM4/hsYNx9NuI40xEKJIgCnmWw/edit?utm_content=DAFicJUOhM4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><br>Presentacion del proyecto</a>
